@@ -36,7 +36,7 @@ var helloWorld = helloWorld || {
   }
 }
 
-window.helloWorld = helloWorld.main;
+window.helloWorld_main = helloWorld.main;
 
 tealiumTools.send( helloWorld.message );
 
