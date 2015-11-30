@@ -1,0 +1,32 @@
+<script type="text/x-handlebars">
+
+{{#if ui_start}}
+     <br>
+     <b>You are currently viewing the "{{this.data.web_page_url}}" web page</b>
+     <br><br>
+   <div style="height:100px">
+     <textarea id="text_area1" class="form-control" rows="3" data-func="helloWorld" data-arg="text_area">Hello World v1</textarea>
+   </div>
+
+   <div style="margin-top:5px;">
+     <input type="hidden" value="next" data-func="helloWorld" data-arg="command">
+     <button id="submit" class="btn btn-success" data-func="helloWorld">Next</button>
+   </div>
+{{/if}}
+
+{{#if ui_finish}}
+     <br>
+     <b>Thank you for entering &quot;"{{this.data.text_area}}"&quot;</b>
+     <br><br>
+   <div style="height:100px">
+     Click Restart to start over
+   </div>
+
+   <div style="margin-top:5px;">
+     <input type="hidden" value="restart" data-func="helloWorld" data-arg="command">
+     <button id="submit" class="btn btn-success" data-func="helloWorld">Restart</button>
+   </div>
+{{/if}}
+
+</script>
+
