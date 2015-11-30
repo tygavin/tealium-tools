@@ -26,6 +26,7 @@ var helloWorld = helloWorld || {
       default:
         console.log( "Restart" );
         message.data = {};
+        message.ui_start = true;
         message.data.web_page_url = document.URL;
         break;
     }
