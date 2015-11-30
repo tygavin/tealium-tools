@@ -1,0 +1,15 @@
+{
+    "id" : "hello_world_hosted_on_github",
+    "title": "Hello World Sample",
+    "description": "This Tealium tool shows how to host tools on github (cdn.rawgit.com)",
+    "icon_url" : "",
+    "scripts": {
+        "import" : {
+            "button_label": "Init / Restart",
+            "template": "https://cdn.rawgit.com/tygavin/tealium-tools/hello-world/hello-world.html",
+            "js": "https://cdn.rawgit.com/tygavin/tealium-tools/hello-world/hello-world.js",
+            "remote_js": true,
+            "remote_template": true
+        }
+    }
+}
