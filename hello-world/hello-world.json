@@ -6,8 +6,8 @@
     "scripts": {
         "import" : {
             "button_label": "Init / Restart",
-            "template": "https://cdn.rawgit.com/tygavin/tealium-tools/hello-world/hello-world.html",
-            "js": "https://cdn.rawgit.com/tygavin/tealium-tools/hello-world/hello-world.js",
+            "template": "https://cdn.rawgit.com/tygavin/tealium-tools/v1.0.0/hello-world/hello-world.html",
+            "js": "https://cdn.rawgit.com/tygavin/tealium-tools/v1.0.0/hello-world/hello-world.js",
             "remote_js": true,
             "remote_template": true
         }
