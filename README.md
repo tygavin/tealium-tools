@@ -6,7 +6,7 @@ This repo hosts Tealium Tools built by Ty Gavin.  There is an example "Hello Wor
 
 The rawgit.com location is a free service available for hosting files on a CDN for low volume usage.
 
-[The rawgit.com FAQ](https://rawgit.com/faq)
+* [View Rawgit FAQ](https://rawgit.com/faq)
 
 NOTE: The rawgit.com hosting service is a free service and is not a part of Tealium or GitHub.  It my testing, it works well for hosting Tealium Tools.
 
@@ -28,18 +28,18 @@ As easy as 1..2..3..4
 
 "Hello World" Tealium Tool Source Code
 
-[github.com/tygavin/tealium-tools](https://github.com/tygavin/tealium-tools)
+* [github.com/tygavin/tealium-tools](https://github.com/tygavin/tealium-tools)
 
 Tealium Tool v1.0 JSON
  
-[https://cdn.rawgit.com/tygavin/tealium-tools/v1.0/hello-world/hello-world.json](https://cdn.rawgit.com/tygavin/tealium-tools/v1.0/hello-world/hello-world.json)
+* [https://cdn.rawgit.com/tygavin/tealium-tools/v1.0/hello-world/hello-world.json](https://cdn.rawgit.com/tygavin/tealium-tools/v1.0/hello-world/hello-world.json)
 
 
 ## Installing Tealium Tools
 
 The Tealium Tools Chrome Extension can be installed from the Chrome Web Store
 
-[Get Tealium Tool Chrome Extension](https://chrome.google.com/webstore/detail/tealium-tools/gidnphnamcemailggkemcgclnjeeokaa?hl=en-US)
+* [Get Tealium Tool Chrome Extension](https://chrome.google.com/webstore/detail/tealium-tools/gidnphnamcemailggkemcgclnjeeokaa?hl=en-US)
 
 Once installed you can add new tools to your set of Custom Tools
 
@@ -47,33 +47,33 @@ Once installed you can add new tools to your set of Custom Tools
 
 2. Click on "Custom Tools" and the large "+" plus sign to add a new Tealium Tool
 
-3. Paste in the full path to the Tealium Tools JSON (for example: https://cdn.rawgit.com/tygavin/tealium-tools/v1.0/hello-world/hello-world.json)
+3. Paste in the full path to the Tealium Tools JSON (for example: `https://cdn.rawgit.com/tygavin/tealium-tools/v1.0/hello-world/hello-world.json`)
 
 4. Your Tealium Tool is now available for use
 
 
 ## Tips
 
-For testing, use the "rawgit.com" location (instead of "cdn.rawgit.com" location) and push your changes to a "dev" branch.
+* For testing, use the "rawgit.com" location (instead of "cdn.rawgit.com" location) and push your changes to a "dev" branch.
 
-Do not share this with your users.  This is for testing your dev work only.  This allows you to immediately test your changes before build a release tag location that is released to the general public.
+* Do not share this with your users.  This is for testing your dev work only.  This allows you to immediately test your changes before build a release tag location that is released to the general public.
 
-Copy/paste the following directly when adding as a new Custom Tealium Tool
+* Copy/paste the following directly when adding as a new Custom Tealium Tool
 
-`
-{
-    "id" : "hello_world_hosted_on_github_dev",
-    "title": "DEV - Hello World Sample",
-    "description": "This Tealium tool shows how to host tools on github (cdn.rawgit.com)",
-    "icon_url" : "",
-    "scripts": {
-        "import" : {
-            "button_label": "Init",
-            "template": "https://rawgit.com/tygavin/tealium-tools/dev/hello-world/hello-world.html",
-            "js": "https://rawgit.com/tygavin/tealium-tools/dev/hello-world/hello-world.js",
-            "remote_js": true,
-            "remote_template": true
+
+    {
+        "id" : "hello_world_hosted_on_github_dev",
+        "title": "DEV - Hello World Sample",
+        "description": "This Tealium tool shows how to host tools on github (cdn.rawgit.com)",
+        "icon_url" : "",
+        "scripts": {
+            "import" : {
+                "button_label": "Init",
+                "template": "https://rawgit.com/tygavin/tealium-tools/dev/hello-world/hello-world.html",
+                "js": "https://rawgit.com/tygavin/tealium-tools/dev/hello-world/hello-world.js",
+                "remote_js": true,
+                "remote_template": true
+            }
         }
     }
-}
-`
+
