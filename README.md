@@ -21,7 +21,7 @@ As easy as 1..2..3..4
 
 3. Tag a release snapshot and make sure the path in your .json file has the release tag included
 
-4. Share your Tealium Tool .json link in the Tealium Community or with your mom to beta test
+4. Share your Tealium Tool .json link in the [Tealium Community](https://community.tealiumiq.com/) or with your mom to beta test
 
 
 ## Example
