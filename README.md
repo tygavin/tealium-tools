@@ -4,7 +4,7 @@
 
 This repo hosts Tealium Tools built by Ty Gavin.  There is an example "Hello World" Tealium Tool that shows how to build your own and share with others using the "rawgit.com" CDN location.
 
-The rawgit.com location is a free service available for hosting files on a CDN for low volume usage.
+The rawgit.com location is a free service available for hosting files on a CDN for low volume usage.  The nice thing about it is that it is just automatic.  You commit files to github and the CDN picks them up and delivers with appropriate headers for the file type.  This is just plain convenient.
 
 * [View Rawgit FAQ](https://rawgit.com/faq)
 
