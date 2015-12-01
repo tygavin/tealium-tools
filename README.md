@@ -56,7 +56,7 @@ Once installed you can add new tools to your set of Custom Tools
 
 * For testing, use the "rawgit.com" location (instead of "cdn.rawgit.com" location) and push your changes to a "dev" branch.
 
-* Do not share this with your users.  This is for testing your dev work only.  This allows you to immediately test your changes before build a release tag location that is released to the general public.
+* Do not share this with your users.  This is for testing your dev work only.  This allows you to immediately test your changes before creating a release/tag that is available to the general public.
 
 * Copy/paste the following directly when adding as a new Custom Tealium Tool
 
