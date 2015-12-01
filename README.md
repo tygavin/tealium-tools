@@ -28,7 +28,7 @@ As easy as 1..2..3..4
 
 "Hello World" Tealium Tool Source Code
 
-* [github.com/tygavin/tealium-tools](https://github.com/tygavin/tealium-tools)
+* [github.com/tygavin/tealium-tools/tree/master/hello-world](https://github.com/tygavin/tealium-tools/tree/master/hello-world)
 
 Tealium Tool v1.0 JSON
  
@@ -39,7 +39,7 @@ Tealium Tool v1.0 JSON
 
 The Tealium Tools Chrome Extension can be installed from the Chrome Web Store
 
-* [Get Tealium Tool Chrome Extension](https://chrome.google.com/webstore/detail/tealium-tools/gidnphnamcemailggkemcgclnjeeokaa?hl=en-US)
+* [Get Tealium Tools Chrome Extension](https://chrome.google.com/webstore/detail/tealium-tools/gidnphnamcemailggkemcgclnjeeokaa?hl=en-US)
 
 Once installed you can add new tools to your set of Custom Tools
 
