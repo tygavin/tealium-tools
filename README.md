@@ -60,20 +60,20 @@ Once installed you can add new tools to your set of Custom Tools
 
 * Copy/paste the following directly when adding as a new Custom Tealium Tool
 
-
-    {
-        "id" : "hello_world_hosted_on_github_dev",
-        "title": "DEV - Hello World Sample",
-        "description": "This Tealium tool shows how to host tools on github (cdn.rawgit.com)",
-        "icon_url" : "",
-        "scripts": {
-            "import" : {
-                "button_label": "Init",
-                "template": "https://rawgit.com/tygavin/tealium-tools/dev/hello-world/hello-world.html",
-                "js": "https://rawgit.com/tygavin/tealium-tools/dev/hello-world/hello-world.js",
-                "remote_js": true,
-                "remote_template": true
-            }
+```json
+{
+    "id" : "hello_world_hosted_on_github_dev",
+    "title": "DEV - Hello World Sample",
+    "description": "This Tealium tool shows how to host tools on github (cdn.rawgit.com)",
+    "icon_url" : "",
+    "scripts": {
+        "import" : {
+            "button_label": "Init",
+            "template": "https://rawgit.com/tygavin/tealium-tools/dev/hello-world/hello-world.html",
+            "js": "https://rawgit.com/tygavin/tealium-tools/dev/hello-world/hello-world.js",
+            "remote_js": true,
+            "remote_template": true
         }
     }
-
+}
+```
